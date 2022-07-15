@@ -1,0 +1,67 @@
+$a-color: rgb(163, 171, 255);
+$bottomColor: #1f1f64;
+$body-color: #120227;
+
+
+body{
+  
+  overflow-x: hidden;
+  background-color: $body-color;
+  
+    
+  .template, .typewriting{
+    
+      overflow: hidden; 
+      white-space: nowrap;
+      margin: 0 auto;
+    letter-spacing: .05em;
+      animation: 
+      typing 4.5s steps(40, end),
+      
+  }
+  
+  @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+  
+    .footer{
+      background-color: $body-color;
+      color: rgb(255, 255, 255);
+    
+      justify-content: space-around;
+      display: flex;
+      bottom: 0;
+      height: 40px;
+      width:100%;
+      position: relative;
+    }
+
+    .content {
+        
+        color: white;
+        position: relative;
+        margin: 0px auto;
+        min-height: 900px;
+      }
+
+      .page{
+        background-image: linear-gradient(to bottom, #02111b 40%, #0a456d 80%, $bottomColor 100%);
+        
+  
+      }
+
+      button, a{
+          cursor: pointer;
+      }
+    }
+
+    body::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: #344655;
+    }
+
+    

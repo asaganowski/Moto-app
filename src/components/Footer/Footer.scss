@@ -1,0 +1,44 @@
+$a-color: rgb(163, 171, 255);
+$body-color: #120227;
+
+.footer{
+    
+    
+    
+    p::first-child{
+        margin-left: 10px;
+
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+    p::last-child{
+        margin-right:10px;
+    }
+    
+
+    a {
+         color: white;
+         font-size: 20px;
+         
+         
+         
+     }
+
+     a:hover{
+            color: $a-color;
+     }
+
+     .links{
+         
+         margin-top: 5px;
+         color:white;
+         //position: absolute;
+         justify-content: space-around;
+         
+         
+     }
+
+}

@@ -1,0 +1,36 @@
+.form {
+
+        margin:1em auto;
+        padding:3em 2em 3em 2em;
+        background-color: rgb(237, 237, 237);
+        border-radius:30px;
+        color: black;
+        width: 700px;
+        position:static;
+        z-index:0;
+    
+        
+
+    label{
+        margin-top:10px;
+    }
+
+    .busyTerms{
+        font-size: small;
+        text-align: right;
+   }
+
+    .button-outline-primary{
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    input, textarea{
+        width: 50%;
+    }
+
+    
+}
+
+
